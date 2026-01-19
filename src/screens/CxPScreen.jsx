@@ -38,7 +38,7 @@ const CxPScreen = ({ data }) => {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <SectionHeader title="Gestión de Pagos (CxP)" subtitle="Control de obligaciones y antigüedad." />
         <div className="flex bg-white p-1.5 rounded-xl shadow-sm border border-slate-100">
-          {['total', 'PROVEEDOR', 'SERVICIOS', 'IMPUESTOS'].map(f => (
+          {['total', 'CLIENTES', 'PERSONAL', 'GARANTIAS'].map(f => (
             <button
               key={f}
               onClick={() => setFilter(f)}
